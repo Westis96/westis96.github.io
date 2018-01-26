@@ -11,7 +11,7 @@ function centerButtons() {
 }
 
 function setup() {
-  createCanvas(128, 128);
+  c = createCanvas(128, 128);
   background(0);
   imageMode(CORNER);
   //img = createGraphics(128, 128);
@@ -48,7 +48,7 @@ function changeBG() {
 }
 
 function saveImage() {
-  saveCanvas(img, 'char', 'jpg');  
+  saveCanvas(c, 'char', 'jpg');  
   background(250);
 }
 
