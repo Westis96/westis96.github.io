@@ -1,0 +1,20 @@
+/* style.css */
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 10;
+    display: flex;
+    background-color: darkgrey;
+    /* Center sketch horizontally. */
+    justify-content: center;
+  
+    /* Center sketch vertically. */
+    align-items: center;
+  }
+
+  canvas {
+    border-radius: 12px;
+  }
