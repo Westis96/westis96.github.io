@@ -3,16 +3,36 @@
 html, body {
     height: 100%;
   }
-  
+
+  .flex-container {
+    margin: 100px;
+    padding:15px;
+    font-size: 20px;
+  }
+
+  div {
+    font-family: Comic Sans MS;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #09182E;
+  }
+
   body {
-    margin: 10;
     display: flex;
-    background-color: #5B6478;
+    flex-direction: column;
+    background-color: rgb(162, 183, 207);
+
     /* Center sketch horizontally. */
-    justify-content: center;
-  
+    justify-content: top;
     /* Center sketch vertically. */
     align-items: center;
+
+    font-family: sansation;
+    padding: 10;
+    margin: 10;
   }
 
   canvas {

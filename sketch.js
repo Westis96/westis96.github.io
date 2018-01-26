@@ -6,8 +6,8 @@ var previous;
 //var img;
 var offset = 0;
 function centerButtons() {
-  saveButton.position(windowWidth/2, windowHeight/2 + 96);
-  clearButton.position(windowWidth/2 - 64, windowHeight/2 + 96);
+  saveButton.position(windowWidth/2 - 16, windowHeight/2 + 64);
+  clearButton.position(windowWidth/2 - 64, windowHeight/2 + 64);
 }
 
 function setup() {
