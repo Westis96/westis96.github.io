@@ -1,11 +1,10 @@
-# CanvasFont
-CanvasFont is a webpage created for the im2seq project. It aims to provide a way for the user to input 128x128 jpg images for augumenting the NIST Special Database 19 dataset and for testing the performance of models. Or for whatever the user wishes to draw. 
+# ChessInP5.js
+ChessInP5.js is a webpage created by Isak Westerlund. It is an ongoing project and bugs may occur, please file a bug report if you find any. Will soon be released under the MIT licence...
 
 
 ### Running a server instance
 ```shell
-$ cd CanvasFont
 $ python3 -m http.server
 ```
-Go to localhost:8000, you should be able to see the interface.
+Go to localhost:8000, you should be able to see the chess interface.
 
